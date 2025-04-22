@@ -1,4 +1,4 @@
-import MainModal from "@/components/MainModal";
+import InputModel from "@/components/InputModel";
 import ScreenBackground from "@/components/ScreenBackground";
 import ThemeToogle from "@/components/ThemeToogle";
 import { ReactNode } from "react";
@@ -11,7 +11,7 @@ const Home: React.FC<HomeProps> = ({ children }) => {
   return (
     <ScreenBackground>
       <ThemeToogle />
-      <MainModal />
+      <InputModel />
     </ScreenBackground>
   );
 };

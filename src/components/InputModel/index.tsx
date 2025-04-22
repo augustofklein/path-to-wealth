@@ -1,6 +1,6 @@
 import { ModalContainer } from "./styles";
 
-const MainModal: React.FC = () => {
+const InputModel: React.FC = () => {
   return <ModalContainer></ModalContainer>;
 };
-export default MainModal;
+export default InputModel;
