@@ -1,9 +1,13 @@
 import AcceptButton from "../AcceptButton";
-import { ModalContainer, ModalFooter } from "./styles";
+import InputNumber from "../InputNumber";
+import { ModalContainer, ModalContent, ModalFooter } from "./styles";
 
 const InputModel: React.FC = () => {
   return (
     <ModalContainer>
+      <ModalContent>
+        <InputNumber />
+      </ModalContent>
       <ModalFooter>
         <AcceptButton />
       </ModalFooter>
