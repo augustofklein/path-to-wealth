@@ -3,6 +3,7 @@ import { IconMoon, IconSun, ToogleButton, ToogleContainer } from "./styles";
 
 const ThemeToogle: React.FC = () => {
   const { theme, setTheme } = useTheme();
+
   return (
     <ToogleContainer>
       <ToogleButton

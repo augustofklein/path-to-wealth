@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ModalContainer: React.FC = styled.div`
+export const ModalContainer = styled.div`
   position: fixed;
   top: 50%;
   left: 50%;
@@ -12,4 +12,14 @@ export const ModalContainer: React.FC = styled.div`
   border: 2px solid #ccc;
   border-radius: 12px;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const ModalFooter = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 `;
